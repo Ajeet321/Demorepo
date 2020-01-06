@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="url" value="https://www.google.com/"></parameter>
+    <classes>
+      <class name="com.TestNG.CrossBrowsersParallelTest"/>
+    </classes>
+  </test> 
+</suite>

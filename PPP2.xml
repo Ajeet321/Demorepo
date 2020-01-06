@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+  <test name="TestRunner1">
+    <classes>
+   <class name="com.TestNG.Parallel3"/>
+   </classes>
+   </test>
+   <test name="testRunner2">
+   <classes>
+      <class name="com.TestNG.Parallel2"/>
+      </classes>
+      </test>
+      <test name="testRunner3">
+      <classes>
+      <class name="com.TestNG.Parallel1"/>
+    </classes>
+  </test> 
+</suite> 

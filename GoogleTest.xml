@@ -1,0 +1,12 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  <run>
+  <include name="test"/>
+  </run>
+  </groups>>
+    <classes>
+      <class name="com.TestNG.GoogleTest"/>
+    </classes>
+  </test> 
+</suite> 
