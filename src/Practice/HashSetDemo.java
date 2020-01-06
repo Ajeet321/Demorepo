@@ -19,5 +19,10 @@ public class HashSetDemo {
 		
 		
 	}
+	public void set() {
+		
+		
+		System.out.println("set");
+	}
 
 }
